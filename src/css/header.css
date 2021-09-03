@@ -12,7 +12,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--lightblack);
+    /*background: var(--lightblack);*/
+    background: #2C2E43;
     transition: all 0.3s ease;
 }
 
