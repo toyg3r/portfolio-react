@@ -2,7 +2,7 @@
 section.banner {
     position: relative;
     min-height: 100vh;
-    background:#2C2E43;
+    background:#1B0044;
     padding: 5rem 4rem;
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@ section.banner .developer-bio p {
     margin: 15px auto;
     font-size: 1.8rem;
     font-weight: 500;
-    color: #2C2E43;
+    color: white;
     line-height: 0;
 }
 
@@ -26,7 +26,7 @@ section.banner .developer-bio h2 {
     margin: 15px auto;
     font-size: 2.2rem;
     font-weight: 600;
-    color: #2C2E43;
+    color: white;
 }
 
 section.banner .developer-bio h2 span {
@@ -43,7 +43,7 @@ section.banner .developer-bio h3 {
     margin: 10px auto;
     font-size: 1.8rem;
     font-weight: 500;
-    color: var(--lightwhite);
+    color: white;
     letter-spacing: 1.4px;
     word-spacing: 6px;
     text-transform: capitalize;
@@ -65,8 +65,8 @@ section.banner .developer-bio .btn {
 }
 
 section.banner .developer-bio .btn:hover {
-    color: var(--lightwhite);
-    background: var(--lightblack);
+    color:white;
+    background:#1B0044;
 }
 
 section.banner .developer-img {

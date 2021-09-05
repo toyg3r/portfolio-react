@@ -1,13 +1,6 @@
-/* Main Font in (style.css) */
-/* If required new font add here! */
-
-/* All Custom Colors in (style.css) || [:root] || */
-/* Add / Change if required! */
-
-/* Education Section Styles Start */
 
 .education {
-    background: var(--offwhite);
+    background:white;
     padding: 5rem 2rem 1rem;
 }
 
@@ -35,13 +28,13 @@
 }
 
 .education-icon {
-    font-size: 2rem;
+    font-size: 2rem !important;
 }
 
 .education-institution {
     font-weight: 600;
     /* background: -webkit-linear-gradient(45deg, var(--lightpink), #c80049); */
-    background: -webkit-linear-gradient(45deg,#c80049, #c80049);
+    background:#f01062;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -62,7 +55,7 @@
     bottom: -10px;
     left: 0;
     border-radius: 4px;
-    background: -webkit-linear-gradient(45deg, var(--lightpink), #c80049);
+    background:#f01062;
 }
 
 .education-years {

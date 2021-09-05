@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/skills.css"
 import htmlpic from "../assets/icons/skills/html5.svg";
 import csspic from "../assets/icons/skills/css3.svg";
 import javasc from "../assets/icons/skills/javascript.svg";
@@ -8,8 +7,13 @@ import mong from "../assets/icons/skills/mongodb.svg";
 import exp from "../assets/icons/skills/express.svg";
 import reac from "../assets/icons/skills/react.svg";
 import pyt from "../assets/icons/skills/python.svg";
+import "../css/skills.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+{AOS.init()}
 
 function Skills(){
+
     return(
         <section className="skills" id="skills">
             <h2 className="skills_heading">Skills</h2>

@@ -3,7 +3,7 @@
 footer .footer-container {
     padding: 3rem 1rem;
     /*background: var(--lightblack);*/
-    background: lightblue;
+    background:#3B185F;
 }
 
 footer .footer-container .upper-footer {
@@ -24,7 +24,7 @@ footer .footer-container .upper-footer .address-contact h2 {
     font-size: 26px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
-    color: var(--lightwhite);
+    color:white;
 }
 
 footer .footer-container .upper-footer .social-contact h2:after,
@@ -36,7 +36,7 @@ footer .footer-container .upper-footer .address-contact h2:after {
     transform: translate(0, -50%);
     width: 20%;
     height: 4px;
-    background: var(--lightpink);
+    background:#f01062;
     border-radius: 4px;
 }
 
@@ -46,7 +46,7 @@ footer .footer-container .upper-footer .address-contact p {
     font-size: 18px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
-    color: var(--lightgrey);
+    color:white;
 }
 
 footer .footer-container .upper-footer .social-contact .list-group,
@@ -57,7 +57,7 @@ footer .footer-container .upper-footer .address-contact .list-group {
 footer .footer-container .upper-footer .social-contact a,
 footer .footer-container .upper-footer .address-contact a {
     margin: 10px;
-    background: var(--lightblack);
+    background:white;
     color: var(--lightwhite);
     box-shadow: 0 3px 8px #747b88;
     border-radius: 50%;
@@ -78,5 +78,5 @@ footer .footer-container .upper-footer .address-contact a i {
 
 footer .footer-container .upper-footer .social-contact a:hover,
 footer .footer-container .upper-footer .address-contact a:hover {
-    color: var(--lightgrey);
+    color:gray;
 }

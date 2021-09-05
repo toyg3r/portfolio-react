@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/footer.css";
+import 'font-awesome/css/font-awesome.min.css';
 
 function Footer(){
     return(

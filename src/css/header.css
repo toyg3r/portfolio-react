@@ -7,13 +7,13 @@ header {
     top: 0;
     width: 100%;
     height: 5rem;
-    padding: 1.5rem 1rem;
+    padding: 2rem 5rem;
     z-index: 100;
     display: flex;
     justify-content: space-between;
     align-items: center;
     /*background: var(--lightblack);*/
-    background: #2C2E43;
+    background: #3B185F;
     transition: all 0.3s ease;
 }
 
@@ -136,7 +136,7 @@ header div.desktop_nav ul li a:after {
     left: 0;
     width: 100%;
     height: 4px;
-    background:lightyellow;
+    background:#F6C90E;
     border-radius: 2px;
     transform: scale(0, 1);
     transform-origin: 50% 50%;
@@ -149,4 +149,112 @@ header div.desktop_nav ul li a:hover {
 header div.desktop_nav ul li a:hover:after {
     transform: scale(1, 1);
 }
+
+/* Mobile Navbar */
+
+header div.mobile_nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    width: 100%;
+    padding: 4rem 4rem 1rem;
+    z-index: -1;
+    background: var(--lightblack);
+    box-shadow: 0 2px 6px rgba(4, 4, 15, 0.6);
+    transition: all 0.5s ease;
+}
+
+header div.mobile_nav.menu-active {
+    transform: translateY(0);
+}
+
+header div.mobile_nav ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header div.mobile_nav ul li {
+    list-style: none;
+    margin: 1rem auto 0.5rem;
+}
+
+header div.mobile_nav ul li a {
+    position: relative;
+    text-decoration: none;
+    color: var(--lightwhite);
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+header div.mobile_nav ul li a:hover {
+    color: var(--lightgrey);
+}
+
+/* Navbar Responsive Media */
+
+@media (max-width: 950px) {
+    header div.navbar-logo a svg.home {
+        fill: white;
+        display: block;
+    }
+
+    header div.navbar-logo a.logo {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        justify-content: space-between;
+        padding: 1.75rem;
+    }
+
+    header div.desktop_nav ul li a {
+        margin: auto 1rem;
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        justify-content: space-between;
+        padding: 1.5rem;
+    }
+
+    header div.desktop_nav ul li a {
+        margin: auto 1rem;
+    }
+}
+
+@media (max-width: 668px) {
+    header div.desktop_nav ul li a {
+        margin: auto 0.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    header div.desktop_nav {
+        display: none;
+    }
+
+    header.padding {
+        padding: 0.8rem 2rem;
+    }
+}
+
+@media (min-width: 640px) {
+    header div.menu-icon {
+        display: none;
+    }
+
+    header div.mobile_nav {
+        display: none;
+    }
+}
+
 

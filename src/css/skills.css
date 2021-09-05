@@ -23,9 +23,10 @@
 
 /* Skills Custom Styles */
 
+
 .skills {
     width: 100%;
-    background: var(--lightblack);
+    background:#1B0044;
     padding: 7rem 2rem 3rem;
 }
 
@@ -33,7 +34,7 @@
     position: relative;
     font-size: 3rem;
     font-weight: 700;
-    color: #f1f6f9;
+    color:white;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -55,11 +56,11 @@
     transition: all 1s ease;
 }
 
-/*
+
 .skills .skill-content .skill:hover {
     transform: scale(1.2);
 }
-*/
+
 
 .skills .skill-content .skill .skill-img-container {
     width: 70px;
@@ -70,7 +71,7 @@
     font-size: 24px;
     font-weight: 400;
     text-align: center;
-    color: var(--mediumgrey);
+    color:white;
 }
 
 /* Skills Icons Colors */
@@ -102,3 +103,4 @@
 #python_icon path.p2 {
     fill: #4584b6;
 }
+
