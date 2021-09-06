@@ -3,7 +3,7 @@ import React from "react";
 
 function Eduback(props){
     return(
-        <div className="education-item">
+        <div key={props.id} className="education-item">
                     <i className="education-icon fa fa-graduation-cap"></i>
                     <div className="education-details">
                         <h3 className="education-institution">{props.uniname}</h3>

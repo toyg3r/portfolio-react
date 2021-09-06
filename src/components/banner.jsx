@@ -9,10 +9,10 @@ function Banner(){
             <p>Hello</p>
             <h2>I am<span>John Doe</span></h2>
             <h3>A creative developer</h3>
-            <a href="#" className="btn">Resume</a>
+            <a href="foo" className="btn">Resume</a>
         </div>
         <div className="developer-img">
-            <img src={logopic} className="img-fluid" />
+            <img src={logopic} alt="portfolio design" className="img-fluid" />
         </div>
     </section>
     );

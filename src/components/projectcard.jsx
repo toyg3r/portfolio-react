@@ -1,11 +1,12 @@
 import React from "react";
 function Projectdetail(props){
+   
     return(
-        <div className="col-lg-3 col-md-4 col-sm-6">
-                <a href="#" target="_blank">
+        <div key={props.id} className="col-lg-3 col-md-4 col-sm-6">
+                <a href="foo" target="_blank">
                     <div className="cards-container">
                         <div className="card-background">
-                            <img src={props.pic} className="img-fluid" />
+                            <img src={props.pic} alt="portfolio design" className="img-fluid" />
                         </div>
                         <div className="card-desc">
                             <h6>{props.depart}</h6>
