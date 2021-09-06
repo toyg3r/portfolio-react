@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/header.css";
+import Menucard from "./menu";
 
 
 function Header(){
@@ -19,22 +20,22 @@ function Header(){
         </div>
 
         <div className="desktop_nav">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <Menucard
+            about={"About"}
+            edu={"Education"}
+            skill={"Skills"}
+            pro={"Projects"}
+            cont={"Contact"}
+             />
         </div>
         <div className="mobile_nav">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+        <Menucard
+            about={"About"}
+            edu={"Education"}
+            skill={"Skills"}
+            pro={"Projects"}
+            cont={"Contact"}
+             />
             </div>
     </header>
 
